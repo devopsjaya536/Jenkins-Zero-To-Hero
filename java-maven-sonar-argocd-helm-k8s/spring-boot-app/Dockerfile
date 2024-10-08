@@ -9,5 +9,5 @@ WORKDIR /opt/app
 
 COPY ${artifact} app.jar
 
-# This should not be changed
+# This should not be changedmn hjkh
 ENTRYPOINT ["java","-jar","app.jar"]

@@ -6,4 +6,3 @@ RUN apt-get install openjdk-11-jre -y && apt-get install maven -y
 RUN mvn clean package
 WORKDIR target
 CMD ["java","-jar","spring-boot-web.jar"]
-~                                         
